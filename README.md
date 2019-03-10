@@ -1,5 +1,7 @@
-使用create-app-react脚手架工具创建项目
-总结：
+使用create-app-react脚手架工具创建项目总结：
+
+
+
        1. 打包路径问题（打包后的问题路径出错，找不到文件）    在package.json中添加"homepage":"./"  矫正路径
 
        2. 使用react-id-swpier插件完成轮播图 <Swpier>中直接配置选项
