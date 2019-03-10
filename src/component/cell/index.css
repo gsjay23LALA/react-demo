@@ -1,0 +1,28 @@
+.cell{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    border-bottom:0.5px solid #eee; 
+}
+.cell-img{
+    display: flex;
+    flex: 1;
+
+}
+.cell-title{
+    display: flex;
+    flex-direction: column;
+    flex: 3
+}
+.cell-title h4{
+    margin-bottom: 0;
+    padding-left: 10px;
+    text-align: left;
+    height: 0.8rem;
+}
+.cell-title p{
+    margin-bottom: 0;
+    text-align: right;
+    padding-right: 10px;
+}
