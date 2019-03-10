@@ -1,3 +1,14 @@
+使用create-app-react脚手架工具创建项目
+issue：1. 打包路径问题（打包后的问题路径出错，找不到文件）    在package.json中添加"homepage":"./"  矫正路径
+
+       2. 使用react-id-swpier插件完成轮播图 <Swpier>中直接配置选项
+
+       3. 使用lib-flexible布局，图片尺寸大小参差不齐，将swpier的高度限制到图片的最小高度，其他超出的高度overflow：hidden 
+
+       4. 掌握jsx写法，基本的父子组件传值
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
